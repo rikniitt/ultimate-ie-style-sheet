@@ -1,0 +1,30 @@
+/**
+ * Style sheet, which provides authentic
+ * MS interwebs experience.
+ */
+body {
+    display: none;
+}
+
+html {
+    background: #0000aa;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12pt;
+    text-align: center;
+    margin: 10% 20% 0 20%;
+}
+
+html:before {
+    background: #fff;
+    color: #0000aa;
+    padding: 2px 8px;
+    font-weight: bold;
+    content: 'BROWSING_WITH_MSIE_ERROR';
+}
+
+html:after {
+    display: block;
+    margin: 12px 0 0 0;
+    content: 'Expected exception occured. It seems, that browser you are using, has broken websites and driven web-developers in depression since 1995. One does not simply browse internetz with Internet Explorer.';
+}

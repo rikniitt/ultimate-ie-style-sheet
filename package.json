@@ -1,0 +1,9 @@
+{
+    "name": "ultimate-ie-style-sheet",
+    "version": "0.0.1",
+    "description": "Style sheet, which provides authentic MS interwebs experience.",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-cssmin": "~0.10.0"
+    }
+}
